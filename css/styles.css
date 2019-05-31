@@ -1,0 +1,106 @@
+
+body {
+    background-color:white;
+}
+header {
+    background-color: rgb(50, 50, 50);
+}
+#header-wrap {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0;
+}
+#logo {
+    float: left;
+    margin: 0 0 0 0;
+}
+nav ul {
+    display: inline-block;
+    width: 709px;
+    height: auto;
+    padding: 25.5px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 60px 0 15px;    
+}
+nav ul li a {
+    color: gray;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+main {
+    width: 961px;
+    margin: 0 auto 0 auto;
+}
+#hero-image {
+    height: 450px;
+    width: 960px;
+    margin: 29px 0 0 0;
+    padding: 0;
+}
+#sub-banner-left {
+    display: inline-block;
+    margin: 30px 0px 0 0;
+    height: 375px;
+    width: 300px;
+}
+#sub-banner-center {
+    display: inline-block;
+    height: 375px;
+    width: 300px;
+    margin: 30px 26px 0 26px;
+}
+#sub-banner-right {
+    display: inline-block;
+    height: 375px;
+    width: 300px;
+    margin: 30px 0 0 0;
+}
+#featured-section-banner {
+    display: inline-block;
+    height: 400px;
+    width: 480px;
+    margin: 26px 26px 0 0;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold, serif;
+}
+p {
+    font-family: Times;
+    font-size: 1.2em;
+    line-height: 124%;
+}
+#featured-section-article {
+    display: inline-block;
+    height: 400px;
+    width: 450px;
+    margin: 0 0 0 0;
+    overflow-y: scroll;
+}
+button {
+    height: 50px;
+    width: 250px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold, serif;
+    transition: 350ms;
+}
+button:hover {
+    background-color: gray;
+    transition: 350ms;
+}
+footer {
+    height: 120px;
+    width: auto;
+    margin: 27px 0 0 0;
+    background-color: rgb(50, 50, 50);
+}
